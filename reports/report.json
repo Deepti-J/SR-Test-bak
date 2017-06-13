@@ -28,7 +28,7 @@
         "emitterEvent": "testPass",
         "name": "When I click on Login",
         "category": "Smart Response Login Pages: Test SmartResponse Login Page",
-        "durationMillis": 3,
+        "durationMillis": 6,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 9,
@@ -47,7 +47,7 @@
         }
       }
     ],
-    "duration": 7
+    "duration": 10
   },
   {
     "description": "Login to SmartResponse",
@@ -81,7 +81,7 @@
         "emitterEvent": "testPass",
         "name": "When I enter sr_admin@smartresponse.org and test#1",
         "category": "Smart Response Login Pages: Login to SmartResponse",
-        "durationMillis": 6,
+        "durationMillis": 8,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 14,
@@ -92,7 +92,7 @@
         "emitterEvent": "testPass",
         "name": "Then I successfully login and show the dashboard",
         "category": "Smart Response Login Pages: Login to SmartResponse",
-        "durationMillis": 1,
+        "durationMillis": 2,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 15,
@@ -103,7 +103,7 @@
         "emitterEvent": "testPass",
         "name": "And I successfully logout",
         "category": "Smart Response Login Pages: Login to SmartResponse",
-        "durationMillis": 6,
+        "durationMillis": 3,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 16,
@@ -131,7 +131,7 @@
         "emitterEvent": "testPass",
         "name": "Given I am logged in to Smart Response using sr_admin@smartresponse.org and test#1",
         "category": "Smart Response Login Pages: Check Home Page after Login to SmartResponse",
-        "durationMillis": 5,
+        "durationMillis": 4,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 19,
@@ -142,7 +142,7 @@
         "emitterEvent": "testPass",
         "name": "When I click on Home link",
         "category": "Smart Response Login Pages: Check Home Page after Login to SmartResponse",
-        "durationMillis": 3,
+        "durationMillis": 1,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 20,
@@ -161,7 +161,7 @@
         }
       }
     ],
-    "duration": 11
+    "duration": 8
   },
   {
     "description": "Check Organizations Page after Login to SmartResponse",
@@ -189,7 +189,7 @@
         "emitterEvent": "testPass",
         "name": "Then I am able to see the Organizations Page",
         "category": "Smart Response Login Pages: Check Organizations Page after Login to SmartResponse",
-        "durationMillis": 8,
+        "durationMillis": 1,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 25,
@@ -197,7 +197,7 @@
         }
       }
     ],
-    "duration": 9
+    "duration": 2
   },
   {
     "description": "Check Disasters Page after Login to SmartResponse",
@@ -225,7 +225,7 @@
         "emitterEvent": "testPass",
         "name": "Then I am able to see the Disasters Page",
         "category": "Smart Response Login Pages: Check Disasters Page after Login to SmartResponse",
-        "durationMillis": 2,
+        "durationMillis": 1,
         "sourceLocation": {
           "filePath": "/Users/kiranhk/git/smartresponse-protractor-automation/features/dapadmin.feature",
           "line": 29,
@@ -233,6 +233,6 @@
         }
       }
     ],
-    "duration": 3
+    "duration": 2
   }
 ]

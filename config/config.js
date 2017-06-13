@@ -4,6 +4,7 @@ exports.config = {
 
     baseUrl: 'http://dev.smartresponse.org',
 
+    seleniumAddress: 'http://localhost:4444/wd/hub',
 
     capabilities: {
         'browserName': (process.env.TEST_BROWSER_NAME || 'chrome'),

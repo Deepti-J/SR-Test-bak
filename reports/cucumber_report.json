@@ -14,7 +14,7 @@
             "name": "The Smart Response Page is open",
             "result": {
               "status": "passed",
-              "duration": 1869948
+              "duration": 1971566
             },
             "line": 8,
             "match": {
@@ -27,7 +27,7 @@
             "name": "I click on Login",
             "result": {
               "status": "passed",
-              "duration": 3130712
+              "duration": 5639325
             },
             "line": 9,
             "match": {
@@ -40,7 +40,7 @@
             "name": "I am shown the login page",
             "result": {
               "status": "passed",
-              "duration": 2258112
+              "duration": 2164321
             },
             "line": 10,
             "match": {
@@ -63,7 +63,7 @@
             "name": "The Smart Response Login Page is open",
             "result": {
               "status": "passed",
-              "duration": 1209326
+              "duration": 964491
             },
             "line": 13,
             "match": {
@@ -76,7 +76,7 @@
             "name": "I enter sr_admin@smartresponse.org and test#1",
             "result": {
               "status": "passed",
-              "duration": 5560568
+              "duration": 8175064
             },
             "line": 14,
             "match": {
@@ -89,7 +89,7 @@
             "name": "I successfully login and show the dashboard",
             "result": {
               "status": "passed",
-              "duration": 1400962
+              "duration": 2176762
             },
             "line": 15,
             "match": {
@@ -102,7 +102,7 @@
             "name": "I successfully logout",
             "result": {
               "status": "passed",
-              "duration": 5636506
+              "duration": 2655991
             },
             "line": 16,
             "match": {
@@ -125,7 +125,7 @@
             "name": "I am logged in to Smart Response using sr_admin@smartresponse.org and test#1",
             "result": {
               "status": "passed",
-              "duration": 4552351
+              "duration": 4106848
             },
             "line": 19,
             "match": {
@@ -138,7 +138,7 @@
             "name": "I click on Home link",
             "result": {
               "status": "passed",
-              "duration": 3498229
+              "duration": 1434258
             },
             "line": 20,
             "match": {
@@ -151,7 +151,7 @@
             "name": "I am able to see the Home Page",
             "result": {
               "status": "passed",
-              "duration": 2608072
+              "duration": 2527255
             },
             "line": 21,
             "match": {
@@ -174,7 +174,7 @@
             "name": "I click on Ogranizations link",
             "result": {
               "status": "passed",
-              "duration": 1241937
+              "duration": 1075345
             },
             "line": 24,
             "match": {
@@ -187,7 +187,7 @@
             "name": "I am able to see the Organizations Page",
             "result": {
               "status": "passed",
-              "duration": 8402335
+              "duration": 500730
             },
             "line": 25,
             "match": {
@@ -210,7 +210,7 @@
             "name": "I click on Disasters link",
             "result": {
               "status": "passed",
-              "duration": 784638
+              "duration": 947660
             },
             "line": 28,
             "match": {
@@ -223,7 +223,7 @@
             "name": "I am able to see the Disasters Page",
             "result": {
               "status": "passed",
-              "duration": 1574622
+              "duration": 1138682
             },
             "line": 29,
             "match": {
