@@ -1,0 +1,325 @@
+[
+  {
+    "description": "  As a Admin of the DAP\n  I would like login to Smart Response portal\n  So that I can perform other activities",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Smart Response Login Pages",
+    "tags": [],
+    "uri": "/Users/kiranhk/git/smartresponse-protractor-automation/features/login.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Test SmartResponse Login Page",
+        "tags": [
+          {
+            "line": 6,
+            "name": "@LoginScenario"
+          }
+        ],
+        "id": "smart-response-login-pages;test-smartresponse-login-page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The Smart Response Page is open",
+            "result": {
+              "status": "passed",
+              "duration": 86
+            },
+            "line": 8,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Login",
+            "result": {
+              "status": "passed",
+              "duration": 300
+            },
+            "line": 9,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:15"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am shown the login page",
+            "result": {
+              "status": "passed",
+              "duration": 3
+            },
+            "line": 10,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login to SmartResponse",
+        "tags": [
+          {
+            "line": 12,
+            "name": "@LoginScenario"
+          }
+        ],
+        "id": "smart-response-login-pages;login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "The Smart Response Login Page is open",
+            "result": {
+              "status": "passed",
+              "duration": 208
+            },
+            "line": 14,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I enter \"sr_admin@smartresponse.org\" and \"test#1\"",
+            "result": {
+              "status": "passed",
+              "duration": 7
+            },
+            "line": 15,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:28"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I successfully login and show the dashboard",
+            "result": {
+              "status": "passed",
+              "duration": 4
+            },
+            "line": 16,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:34"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "I successfully logout",
+            "result": {
+              "status": "passed",
+              "duration": 19
+            },
+            "line": 17,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Check Home Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 19,
+            "name": "@LoginScenario"
+          }
+        ],
+        "id": "smart-response-login-pages;check-home-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "I am logged in to Smart Response using \"sr_admin@smartresponse.org\" and \"test#1\"",
+            "result": {
+              "status": "passed",
+              "duration": 11
+            },
+            "line": 21,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Home link",
+            "result": {
+              "status": "passed",
+              "duration": 3
+            },
+            "line": 22,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 4
+            },
+            "line": 23,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Check Organizations Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 25,
+            "name": "@LoginScenario"
+          }
+        ],
+        "id": "smart-response-login-pages;check-organizations-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Ogranizations link",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 27,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:59"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Organizations Page",
+            "result": {
+              "status": "passed",
+              "duration": 4
+            },
+            "line": 28,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:63"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 4
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Check Disasters Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 30,
+            "name": "@LoginScenario"
+          }
+        ],
+        "id": "smart-response-login-pages;check-disasters-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Disasters link",
+            "result": {
+              "status": "passed",
+              "duration": 11
+            },
+            "line": 32,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:67"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Disasters Page",
+            "result": {
+              "status": "passed",
+              "duration": 8
+            },
+            "line": 33,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:71"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "smart-response-login-pages"
+  }
+]
