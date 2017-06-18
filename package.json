@@ -1,7 +1,7 @@
 {
   "name": "smartresponse-protractor-automation",
   "version": "0.1.0",
-  "description": "To demostrate protractor cucumber tests for angular/non angular apps with allure report framework",
+  "description": "E2E automation tests for Smartresponse.org",
   "homepage": "http://dev.smartresponse.org/",
   "main": "index.js",
   "scripts": {
