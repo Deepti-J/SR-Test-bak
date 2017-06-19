@@ -25,7 +25,7 @@
             "name": "The Smart Response Page is open",
             "result": {
               "status": "passed",
-              "duration": 86
+              "duration": 93
             },
             "line": 8,
             "match": {
@@ -38,7 +38,7 @@
             "name": "I click on Login",
             "result": {
               "status": "passed",
-              "duration": 300
+              "duration": 397
             },
             "line": 9,
             "match": {
@@ -51,7 +51,7 @@
             "name": "I am shown the login page",
             "result": {
               "status": "passed",
-              "duration": 3
+              "duration": 4
             },
             "line": 10,
             "match": {
@@ -90,7 +90,7 @@
             "name": "The Smart Response Login Page is open",
             "result": {
               "status": "passed",
-              "duration": 208
+              "duration": 214
             },
             "line": 14,
             "match": {
@@ -103,7 +103,7 @@
             "name": "I enter \"sr_admin@smartresponse.org\" and \"test#1\"",
             "result": {
               "status": "passed",
-              "duration": 7
+              "duration": 13
             },
             "line": 15,
             "match": {
@@ -116,7 +116,7 @@
             "name": "I successfully login and show the dashboard",
             "result": {
               "status": "passed",
-              "duration": 4
+              "duration": 7
             },
             "line": 16,
             "match": {
@@ -129,7 +129,7 @@
             "name": "I successfully logout",
             "result": {
               "status": "passed",
-              "duration": 19
+              "duration": 26
             },
             "line": 17,
             "match": {
@@ -149,18 +149,29 @@
             }
           }
         ]
-      },
+      }
+    ],
+    "id": "smart-response-login-pages"
+  },
+  {
+    "description": "  As a User of the DAP\n  I would like login to Smart Response portal\n  So that I can test the sidebar menu links",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Smart Response Sidebar Menu Pages",
+    "tags": [],
+    "uri": "/Users/kiranhk/git/smartresponse-protractor-automation/features/sidebar_menu.feature",
+    "elements": [
       {
         "keyword": "Scenario",
-        "line": 20,
+        "line": 8,
         "name": "Check Home Page after Login to SmartResponse",
         "tags": [
           {
-            "line": 19,
-            "name": "@LoginScenario"
+            "line": 7,
+            "name": "@SidebarMenuScenario"
           }
         ],
-        "id": "smart-response-login-pages;check-home-page-after-login-to-smartresponse",
+        "id": "smart-response-sidebar-menu-pages;check-home-page-after-login-to-smartresponse",
         "steps": [
           {
             "arguments": [],
@@ -168,11 +179,11 @@
             "name": "I am logged in to Smart Response using \"sr_admin@smartresponse.org\" and \"test#1\"",
             "result": {
               "status": "passed",
-              "duration": 11
+              "duration": 44
             },
-            "line": 21,
+            "line": 9,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:44"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:13"
             }
           },
           {
@@ -183,9 +194,9 @@
               "status": "passed",
               "duration": 3
             },
-            "line": 22,
+            "line": 10,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:50"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:19"
             }
           },
           {
@@ -196,9 +207,9 @@
               "status": "passed",
               "duration": 4
             },
-            "line": 23,
+            "line": 11,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:54"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:23"
             }
           },
           {
@@ -217,15 +228,15 @@
       },
       {
         "keyword": "Scenario",
-        "line": 26,
+        "line": 14,
         "name": "Check Organizations Page after Login to SmartResponse",
         "tags": [
           {
-            "line": 25,
-            "name": "@LoginScenario"
+            "line": 13,
+            "name": "@SidebarMenuScenario"
           }
         ],
-        "id": "smart-response-login-pages;check-organizations-page-after-login-to-smartresponse",
+        "id": "smart-response-sidebar-menu-pages;check-organizations-page-after-login-to-smartresponse",
         "steps": [
           {
             "arguments": [],
@@ -233,11 +244,11 @@
             "name": "I click on Ogranizations link",
             "result": {
               "status": "passed",
-              "duration": 2
+              "duration": 6
             },
-            "line": 27,
+            "line": 15,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:59"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:28"
             }
           },
           {
@@ -246,11 +257,11 @@
             "name": "I am able to see the Organizations Page",
             "result": {
               "status": "passed",
-              "duration": 4
+              "duration": 5
             },
-            "line": 28,
+            "line": 16,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:63"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:32"
             }
           },
           {
@@ -258,7 +269,7 @@
             "keyword": "After",
             "result": {
               "status": "passed",
-              "duration": 4
+              "duration": 0
             },
             "hidden": true,
             "match": {
@@ -269,15 +280,15 @@
       },
       {
         "keyword": "Scenario",
-        "line": 31,
+        "line": 19,
         "name": "Check Disasters Page after Login to SmartResponse",
         "tags": [
           {
-            "line": 30,
-            "name": "@LoginScenario"
+            "line": 18,
+            "name": "@SidebarMenuScenario"
           }
         ],
-        "id": "smart-response-login-pages;check-disasters-page-after-login-to-smartresponse",
+        "id": "smart-response-sidebar-menu-pages;check-disasters-page-after-login-to-smartresponse",
         "steps": [
           {
             "arguments": [],
@@ -285,11 +296,11 @@
             "name": "I click on Disasters link",
             "result": {
               "status": "passed",
-              "duration": 11
+              "duration": 5
             },
-            "line": 32,
+            "line": 20,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:67"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:36"
             }
           },
           {
@@ -298,11 +309,63 @@
             "name": "I am able to see the Disasters Page",
             "result": {
               "status": "passed",
-              "duration": 8
+              "duration": 13
             },
-            "line": 33,
+            "line": 21,
             "match": {
-              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/login_steps.ts:71"
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:40"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Check Services Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 23,
+            "name": "@SidebarMenuScenario"
+          }
+        ],
+        "id": "smart-response-sidebar-menu-pages;check-services-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Services link",
+            "result": {
+              "status": "passed",
+              "duration": 35
+            },
+            "line": 25,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Services Page",
+            "result": {
+              "status": "passed",
+              "duration": 6
+            },
+            "line": 26,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:48"
             }
           },
           {
@@ -311,6 +374,266 @@
             "result": {
               "status": "passed",
               "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Check Countries Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 28,
+            "name": "@SidebarMenuScenario"
+          }
+        ],
+        "id": "smart-response-sidebar-menu-pages;check-countries-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Countries link",
+            "result": {
+              "status": "passed",
+              "duration": 7
+            },
+            "line": 30,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:52"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Countries Page",
+            "result": {
+              "status": "passed",
+              "duration": 5
+            },
+            "line": 31,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Check Configure Lists Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 33,
+            "name": "@SidebarMenuScenario"
+          }
+        ],
+        "id": "smart-response-sidebar-menu-pages;check-configure-lists-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Configure Lists link",
+            "result": {
+              "status": "passed",
+              "duration": 7
+            },
+            "line": 35,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:60"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Configure Lists Page",
+            "result": {
+              "status": "passed",
+              "duration": 12
+            },
+            "line": 36,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:64"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 1
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Check Messages Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 38,
+            "name": "@SidebarMenuScenario"
+          }
+        ],
+        "id": "smart-response-sidebar-menu-pages;check-messages-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Messages link",
+            "result": {
+              "status": "passed",
+              "duration": 5
+            },
+            "line": 40,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:68"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Messages Page",
+            "result": {
+              "status": "passed",
+              "duration": 2
+            },
+            "line": 41,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:72"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 5
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Check User Management Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 43,
+            "name": "@SidebarMenuScenario"
+          }
+        ],
+        "id": "smart-response-sidebar-menu-pages;check-user-management-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Users link",
+            "result": {
+              "status": "passed",
+              "duration": 22
+            },
+            "line": 45,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:76"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Users Page",
+            "result": {
+              "status": "passed",
+              "duration": 9
+            },
+            "line": 46,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 0
+            },
+            "hidden": true,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/support/hooks.ts:19"
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Check Change Password Page after Login to SmartResponse",
+        "tags": [
+          {
+            "line": 48,
+            "name": "@SidebarMenuScenario"
+          }
+        ],
+        "id": "smart-response-sidebar-menu-pages;check-change-password-page-after-login-to-smartresponse",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "I click on Change Password link",
+            "result": {
+              "status": "passed",
+              "duration": 3
+            },
+            "line": 50,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:84"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "I am able to see the Change Password Page",
+            "result": {
+              "status": "passed",
+              "duration": 6
+            },
+            "line": 51,
+            "match": {
+              "location": "/Users/kiranhk/git/smartresponse-protractor-automation/stepdefinitions/sidebar_menu_steps.ts:88"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 2
             },
             "hidden": true,
             "match": {
@@ -320,6 +643,6 @@
         ]
       }
     ],
-    "id": "smart-response-login-pages"
+    "id": "smart-response-sidebar-menu-pages"
   }
 ]

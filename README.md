@@ -20,7 +20,7 @@ npm run tsc
 ### Start Webdriver Manager (in 1 terminal window)
 
 ```
- npm run webdriver-update
+npm run webdriver-update
 npm run start-webdriver
 ```
 

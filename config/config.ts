@@ -32,6 +32,6 @@ export let config: Config = {
         strict: true,
         format: ['pretty'],
         require: ['../../stepdefinitions/*.ts', '../../support/*.ts'],
-        tags: '@LoginScenario'
+        tags: '@LoginScenario or @SidebarMenuScenario'
     }
 };

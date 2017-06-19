@@ -15,19 +15,3 @@ Feature: Smart Response Login Pages
      When I enter "sr_admin@smartresponse.org" and "test#1"
      Then I successfully login and show the dashboard
      And I successfully logout
-  
-  @LoginScenario
-  Scenario: Check Home Page after Login to SmartResponse
-    Given I am logged in to Smart Response using "sr_admin@smartresponse.org" and "test#1"
-    When I click on Home link
-    Then I am able to see the Home Page
-
-  @LoginScenario
-  Scenario: Check Organizations Page after Login to SmartResponse
-    When I click on Ogranizations link
-    Then I am able to see the Organizations Page
-
-  @LoginScenario
-  Scenario: Check Disasters Page after Login to SmartResponse
-    When I click on Disasters link
-    Then I am able to see the Disasters Page

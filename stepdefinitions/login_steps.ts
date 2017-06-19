@@ -39,38 +39,6 @@ defineSupportCode(function ({Given, When, Then}) {
     loginPage.logoutLink.click();
      expect(browser.getCurrentUrl()).to.eventually.equal('http://dev.smartresponse.org');
      loginPage.clearFieldValues();
-  });
-
-  Given(/^I am logged in to Smart Response using "(.*?)" and "(.*?)"$/, async (userId: string, password: string) => {    
-    loginPage.userIdTextField.sendKeys(userId);
-    loginPage.passwordTextField.sendKeys(password);
-     browser.actions().mouseMove(loginPage.loginButton).click();
-  });
-
-  When(/^I click on Home link$/, async () => {
-    loginPage.homeLink.click();
-  });
-
-  Then(/^I am able to see the Home Page$/, async () => {
-     expect(browser.getCurrentUrl()).to.eventually.equal('http://dev.smartresponse.org/');
-  });  
-
-
-  When(/^I click on Ogranizations link$/, async () => {
-      loginPage.organizationsLink.click();
-  });
-
-  Then(/^I am able to see the Organizations Page$/, async () => {
-     expect(browser.getCurrentUrl()).to.eventually.equal('http://dev.smartresponse.org/dashboard/organizations');
-  });
-
-  When(/^I click on Disasters link$/, async () => {
-    loginPage.disastersLink.click();
-  });
-
-  Then(/^I am able to see the Disasters Page$/, async () => {
-     expect(browser.getCurrentUrl()).to.eventually.equal('http://dev.smartresponse.org/dashboard/disasters');
-  });    
+  }); 
 
 })
-

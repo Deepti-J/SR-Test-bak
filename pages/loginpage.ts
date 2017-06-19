@@ -5,10 +5,7 @@ export class LoginPageObject {
   public userIdTextField:ElementFinder;
   public passwordTextField:ElementFinder;
   public logoutLink:ElementFinder;
-  public homeLink: ElementFinder;
   public loginButton: ElementFinder;
-  public disastersLink: ElementFinder;
-  public organizationsLink:ElementFinder;
 
   
 
@@ -19,9 +16,6 @@ export class LoginPageObject {
     this.loginButton = element(by.id('login_button'));
 
     this.logoutLink = element(by.partialLinkText("Logout"));
-    this.homeLink = element(by.linkText("/"));
-    this.disastersLink = element(by.linkText("/dashboard/disasters"));
-    this.organizationsLink = element(by.linkText("/dashboard/organizations"));
   }
 
   clearFieldValues = function() {
