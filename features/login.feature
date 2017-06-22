@@ -10,8 +10,12 @@ Feature: Smart Response Login Pages
     Then I am shown the login page
   
   @LoginScenario
-  Scenario: Login to SmartResponse
+  Scenario Outline: Login to SmartResponse
     Given The Smart Response Login Page is open
-     When I enter "sr_admin@smartresponse.org" and "test#1"
-     Then I successfully login and show the dashboard
-     And I successfully logout
+     When I enter "<userId>" and "<Password>" and "<success>"
+     Then I successfully logout
+  
+  Examples:
+            | userId                     | Password  | success |
+            | sr_admin@smartresponse.org | test#1    | true |
+            | sr@smartresponse.org       | test      | false |   

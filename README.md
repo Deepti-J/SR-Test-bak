@@ -21,7 +21,7 @@ npm run tsc
 
 ```
 npm run webdriver-update
-npm run start-webdriver
+npm run webdriver-start
 ```
 
 

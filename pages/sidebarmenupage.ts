@@ -10,6 +10,8 @@ export class SidebarMenuPageObject {
   public messagesLink:ElementFinder;
   public usersLink:ElementFinder;
   public changePasswordLink:ElementFinder;
+  public logoutLink:ElementFinder;
+
 
 
 
@@ -22,6 +24,8 @@ export class SidebarMenuPageObject {
     this.configureListsLink = element(by.linkText("/dashboard/configure-lists"));
     this.messagesLink = element(by.linkText("/dashboard/messages"));
     this.usersLink = element(by.linkText("/dashboard/users"));
-    this.changePasswordLink = element(by.linkText("/dashboard/change-password"));                
+    this.changePasswordLink = element(by.linkText("/dashboard/change-password")); 
+    this.logoutLink = element(by.partialLinkText("Logout"));
+               
   }
 }
